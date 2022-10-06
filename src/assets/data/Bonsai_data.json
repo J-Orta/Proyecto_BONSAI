@@ -1,0 +1,35 @@
+[
+ {
+  "ID": 1,
+  "NOMBRE COMÚN": "Hachi-Uye",
+  "ORIGEN": "Japon",
+  "PRECIO": 5000,
+  "ABONO": "Fosforo",
+  "INTERVALOS DE RIEGO": "7 dias",
+  "HERRAMIENTAS": "Regadera",
+  "PLAGAS": "Araña roja",
+  "TAMAÑO": 130
+ },
+ {
+  "ID": 2,
+  "NOMBRE COMÚN": "Omono",
+  "ORIGEN": "Japon",
+  "PRECIO": 8400,
+  "ABONO": "Fosforo",
+  "INTERVALOS DE RIEGO": "7 dias",
+  "HERRAMIENTAS": "Regadera",
+  "PLAGAS": "Araña roja",
+  "TAMAÑO": 90
+ },
+ {
+  "ID": 3,
+  "NOMBRE COMÚN": "Chumono",
+  "ORIGEN": "Japon",
+  "PRECIO": 5700,
+  "ABONO": "Fosforo",
+  "INTERVALOS DE RIEGO": "7 dias",
+  "HERRAMIENTAS": "Regadera",
+  "PLAGAS": "Cochinilla",
+  "TAMAÑO": 112
+ }
+]

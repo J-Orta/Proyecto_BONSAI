@@ -1,0 +1,28 @@
+.p{
+    font-weight: bold;
+}
+
+.row{
+margin-top: 3%;
+}
+
+.Grid{
+    background-image: url(../../../../assets/img/Body_texture.jpg);
+    padding: 3%;
+    text-align: center;
+    color: rgba(240, 192, 128, 0.938);
+}
+
+.Grid-Event{
+    background-image: url(../../../../assets/img/Wood_texture.jpg);
+    color: rgba(240, 192, 128, 0.938);
+}
+
+.col-8{
+    background-image: url(../../../../assets/img/Body_texture.jpg);
+}
+
+.card{
+    background-image: url(../../../../assets/img/Body_texture.jpg);
+    color: rgba(240, 192, 128, 0.938);
+}
