@@ -13,7 +13,7 @@ export class AboutComponent implements OnInit {
 
   ProductList: any[]=[];
   constructor(private ProductSvc:ProductService){
-    this.ProductSvc.getAll().subscribe((result:any)=>{
+    this.ProductSvc.mostrarTodos().subscribe((result:any)=>{
       this.ProductList=result;
       console.log(result)
     })

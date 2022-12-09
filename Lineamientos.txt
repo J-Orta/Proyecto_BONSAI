@@ -1,0 +1,4 @@
+
+Método GET - Imprimir (Extraer de DataBase)
+Método POST - Enviar (Insertar en DataBase)
+

@@ -2,14 +2,24 @@ import { Injectable } from "@angular/core";
 import {HttpClient} from "@angular/common/http";
 import { Observable } from "rxjs";
 
-const URL ='../assets/data/Bonsai_data.json';
 @Injectable({
     providedIn: 'root'
 })
 
 export class ProductService {
+
+    URL ='http://localhost/PHP/';
+
     constructor(private http: HttpClient) {}
-    getAll(){
-        return this.http.get(URL);
+    mostrarTodos(){
+        return this.http.get
+        (`${this.URL}getall.php`);
     }
+
+    eliminar(Id_Productos:any){
+        return this.http.delete(`${this.URL}delete.php/Id_Productos=${Id_Productos}`);
+      }
+      agregar(Producto:any){
+        return this.http.post(`${this.URL}post.php`, JSON.stringify(Producto));
+      }
 }

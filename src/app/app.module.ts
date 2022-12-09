@@ -10,13 +10,15 @@ import { CommonModule } from '@angular/common';
 /*IMPORTACION DE ARCHIVO DE RUTAS*/
 import {AppRoutingModule} from '../assets/app.route';
 import { AboutComponent } from './components/about/about/about.component';
+import { ProductComponent } from './components/product/product.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     HomeComponent,
-    AboutComponent
+    AboutComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule,

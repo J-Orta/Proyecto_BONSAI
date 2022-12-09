@@ -1,0 +1,10 @@
+¿Qué función tiene su API?
+El proyecto BONSAI consiste en un sitio web que ofrece información que puede ser de utilidad para aquellas personas que están interesadas en 
+cuidar de un bonsai, ofrece guías para su manejo y cuidado así como datos interesantes a cerca de estas plantas. También tiene una implicación de 
+E-commerce con la que el usuario puede comprar productos variados necesarios para el cuidado de los bonsais.
+
+¿A quién va dirijida?
+Va dirijida a un público de todas las edades cuyo interes sean los bonsais. Pero las funciónes de compra están solo disponibles para los mayores de edad.
+
+¿Qué tecnologías utiliza?
+El proyecto hace uso de Angular, NodeJS y Bootstrap para el frontend y XAMPP, MySQL y PHP para el backend.

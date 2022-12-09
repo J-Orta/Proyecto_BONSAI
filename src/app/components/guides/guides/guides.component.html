@@ -1,1 +1,37 @@
-<p>guides works!</p>
+<section id="formulario-sc">
+    <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputNombre" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="inputNombre">
+        </div>
+        <div class="col-md-6">
+          <label for="inputCarrera" class="form-label">Carrera</label>
+          <input type="text" class="form-control" id="inputCarrera">
+        </div>
+        <div class="col-12">
+          <label for="inputTelefono" class="form-label">Telefono</label>
+          <input type="text" class="form-control" id="inputTelefono" placeholder="1234 Main St">
+        </div>
+        <div class="col-12">
+          <label for="inputDireccion" class="form-label">Direccion</label>
+          <input type="text" class="form-control" id="inputDireccion" placeholder="Apartment, studio, or floor">
+        </div>
+        <div class="col-md-6">
+          <label for="inputCiudad" class="form-label">Ciudad</label>
+          <input type="text" class="form-control" id="inputCiudad">
+        </div>
+        <div class="col-md-4">
+          <label for="inputParentesco" class="form-label">Parentesco</label>
+          <select id="inputParentesco" class="form-select">
+            <option selected>Choose...</option>
+            <option> Madre/Padre</option>
+            <option> Esposa/Esposo</option>
+            <option> Hermana/Hermano</option>
+            <option> Amigos </option>
+          </select>
+        </div>
+        <div class="col-12">
+          <button type="button" class="btn btn-primary" onclick="GuardarDatos()">Aceptar</button>
+        </div>
+      </form>
+</section>
